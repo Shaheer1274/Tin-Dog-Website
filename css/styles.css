@@ -1,0 +1,241 @@
+
+#title{
+    background: #ff4c68;
+    color: white;
+
+    /* z-index needs any other posistion than static */
+    position: relative;
+    padding-bottom: 40px;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat-Black';
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+ 
+.container-fluid{
+    padding: 3% 15%;
+    /* Top bottom 3
+       and right left 15 */
+}
+
+
+/* Navbar */
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    line-height: 1.5;
+    padding: 0 55px 30px;
+    /* Cool cool padding up,right left and 30 for bottom */
+}
+
+.nav-item{
+    padding: 0 5px;
+}
+
+.nav-link{
+    font-family: 'Montserrat-Light';
+    font-size: 1.3rem;
+}
+
+/* Download Buttons */
+
+.downlodo{
+    margin: 5% 3% 5% 5%;
+}
+
+/* iphone dog */
+.iphone-doggo{
+    width: 22.5%;
+    transform: rotate(25deg);
+    position: absolute ;
+    z-index: 1;
+    right: 20%;
+    bottom: -30%;
+}
+
+/* Font awesome(s) of features */
+.divo{
+    padding: 20px 0 10px;
+    text-align: center; 
+}
+
+.row{
+    margin-left: 40px; 
+}
+
+#features{
+    position: relative;
+    z-index: 2;
+    /* margin-top: 500px; */
+    background-color: white;
+}
+
+/* h3 */
+h3{
+    font-family: 'Montserrat-Bold';
+    font-weight: 500;
+    font: bold;
+}
+
+#p{
+    font-weight: 500;
+    font: bold;
+    color: black;
+
+}
+
+/* Changing font awesomes hovers */
+
+.fa-solid{
+    color: #ff4c68; 
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.fa-solid:hover{
+    color: aqua;
+    transition: 0.3s;
+}
+
+
+/* Testimonials */
+
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+    font-family: 'Monserrat-Bold';
+    font-size: 1.5rem;
+    
+}
+
+.carousel-item{
+     padding: 2% 20%;
+} 
+
+h2{
+    font-family: 'Motserrat-Bold';
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.doggo-wom{
+    width: 15%;
+    border-radius: 50%;
+}
+
+/* Press */
+#press{
+    background-color: pink;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%
+}
+
+.pres{
+    width: 17%;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+/* Pricing */
+#pricing{
+    text-align: center;
+    padding: 2% 10%;
+}
+
+.card{
+    /* Answering the life long question i.e hw to center a div */
+    /* So simple yet so um,idk */
+    margin: 0 auto;
+}
+
+.signups{
+    width: 80%;
+    background-color: black;
+    color: white;
+}
+
+.signups:hover{
+    border: 1px solid;
+    color: white;
+}
+
+.freebtn{
+    border: 1px solid;
+    width: 80%;
+}
+
+.freebtn:hover{
+    border: 1px solid; 
+    background-color: black; /* indigo-700, muted navy */
+    color: white;
+    transition: 0.2s;
+}
+
+.mastiff{
+    border: 1px solid;
+}
+
+
+
+/* Media queries */
+/* Used for handling different devices' views */
+@media (max-width:1024px){
+    .iphone-doggo{
+    position: static;
+    height: 100%;
+    width: 50%;
+    padding-top: 40px;
+    transform: rotate(0);
+    }
+
+    #title{
+        text-align: center;
+    }
+}
+
+/* CTA */
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 3% 5% 3%;
+    font-family: 'Poppins';
+    gap: 30px;
+
+}
+
+.btn-md{
+    margin: 5px 10px 0;
+}
+
+.cta-h3{
+    font-family: 'Montserra-Black';
+    padding-bottom: 1%;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #fff;
+}
+
+/* Footer */
+#footer{
+    text-align: center;
+    background-color: black;
+     color: white;
+    
+    padding:  4% 7%;
+}
+
+.footer-icon{
+    margin: 15px;
+    margin-bottom: 30px;
+}
